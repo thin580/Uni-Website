@@ -1,0 +1,87 @@
+
+<html>
+<head>
+   <title>Assignment 2</title>
+   <link rel="stylesheet" type="text/css" href="thin580.css">
+   <link rel="icon" type="image/png" href="http://redsox.uoa.auckland.ac.nz/ups/logo-115x115.png"> <!-- UoA icon in header -->
+   <script src="thin580.js"></script>
+   <script type="text/javascript">
+      window.onload = function(){
+         showTab1(); // window opens home page on load //
+      }
+   </script>
+</head>
+
+<body>
+   <nav id="tabs">
+      <table style="width: 100%;">
+         <tr>
+            <td id="Tab1" class="center" onclick="showTab1();">
+               Home
+            </td>
+            <td id="Tab2" class="center" onclick="showTab2();">
+               Courses
+            </td>
+            <td id="Tab3" class="center" onclick="showTab3();">
+               People
+            </td>
+            <td id="Tab4" class="center" onclick="showTab4();">
+               News
+            </td>
+            <td id="Tab5" class="center" onclick="showTab5();">
+               Notices
+            </td>
+            <td id="Tab6" class="center" onclick="showTab6();">
+               Guest Book
+            </td>
+         </tr>
+      </table>
+   </nav>
+   <div id="Section1">
+      <section>
+         <div class='homeTitle'> <img src="http://redsox.uoa.auckland.ac.nz/ups/logo.svg" alt="SVG image" height="80" width="80"><h2> Welcome to the Department of Computer Science </h2></div>
+         <p class='homescreen'>
+            Welcome to New Zealand's leading computer science department. We pride ourselves on the excellence of our staff and our students.
+         </p>
+      </section>
+   </div>
+   <div id="Section2">
+      <section>
+            <div id="courseHeader"><h2>Undergraduate and Postgraduate Courses 2018</h2></div>
+            <div id = "showCourseList"></div>
+      </section>
+   </div>
+   <div id="Section3">
+      <section>
+            <div class="peopleHead"><h2>Our People</h2></div>
+               <p class="peopleInfo">Please phone +64 9 373 7999 and enter the extension number (from the phone list below) for the person you wish to speak with.
+               </p>
+            <table id="showPeopleTable"></table>
+      </section>
+   </div>
+   <div id="Section4">
+      <section>
+         <div class='newsHead'><h2>News Board</h2></div>
+         <div id="showNewsList"></div>
+      </section>
+   </div>
+   <div id="Section5">
+      <section>
+         <div class='noticeHead'><h2>Notice Board</h2></div>
+         <div id="showNoticeList"></div>
+      </section>
+   </div>
+   <div id="Section6">
+      <section>
+         <div id="showGuestBook">
+            <h2 class='feedbackTitle'>Leave Your Feedback Below</h2>
+            <form> Name: <input id="username" type="text" name="name"></form>
+            <textarea id="userComment" rows="10" cols="100" name="comment" form="comment"></textarea></br></br> <!-- creates textbox for user comments -->
+            <button onclick="showComment();">Post</button></br></br> <!-- makes post to guestBook but will not show up until show is clicked -->
+            <button onclick="getComment();">Show</button> <!-- refreashes page to be able to see comment -->
+            <p id="posts"> </p>
+         </div>
+      </section>
+   </div>
+</body>
+</html>

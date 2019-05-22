@@ -1,0 +1,235 @@
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: none;
+}
+
+nav {
+	width: 100%;
+}
+
+#tab1:hover, #tab1 {
+	background-color: #D3D3D3;
+	text-align: center;
+	padding: 10px;
+	width: 16%;
+	color: white;
+	cursor: pointer;
+}
+
+#tab2:hover, #tab2 {
+	background-color: #D3D3D3;
+	text-align: center;
+	padding: 10px;
+	width: 16%;
+	color: white;
+	cursor: pointer;
+}
+
+#tab3:hover, #tab3 {
+	background-color: #D3D3D3;
+	text-align: center;
+	padding: 10px;
+	width: 16%;
+	color: white;
+	cursor: pointer;
+}
+
+#tab4:hover, #tab4 {
+	background-color: #D3D3D3;
+	text-align: center;
+	padding: 10px;
+	width: 16%;
+	color: white;
+	cursor: pointer;
+}
+
+#tab5:hover, #tab5 {
+	background-color: #D3D3D3;
+	text-align: center;
+	padding: 10px;
+	width: 16%;
+	color: white;
+	cursor: pointer;
+}
+
+#tab6:hover, #tab6 {
+	background-color: #D3D3D3;
+	text-align: center;
+	padding: 10px;
+	width: 16%;
+	color: white;
+	cursor: pointer;
+}
+
+#tabs {
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	background-color: RoyalBlue;
+}
+
+
+#courseHeader {
+	font-family: "Arial", sans-serif;
+	color: #0000CD;
+}
+
+#courseTitle {
+	font-family: "Arial", sans-serif;
+	background-color: #0000CD;
+	color: white;
+	padding: 9px;
+}
+
+#coursePrereq {
+	font-family: "Arial", sans-serif;
+	background-color: #DCDCDC;
+	padding: 9px;
+}
+
+#courseDescr {
+	font-family: "Arial", sans-serif;
+	background-color: #C0C0C0;
+	padding: 9px;
+}
+
+#timetableLink {
+	font-family: "Arial", sans-serif;
+	text-decoration: underline;
+}
+
+.peopleHead {
+	font-family: "Arial", sans-serif;
+	color: #0000CD;
+}
+
+.peopleInfo {
+	font-family: "Arial", sans-serif;
+}
+
+#showPeopleTable {
+	height: 40px;
+	width: 100%;
+}
+
+#peoplePics {
+	height: 60px;
+	width: 60px;
+}
+
+.peopleTable {
+	font-family: "Arial", sans-serif;
+	background-color: #0000CD;
+	color: white;
+	height: 40px;
+}
+
+.peopleOdd {
+	background-color: #DCDCDC;
+}
+
+.peopleEven {
+	background-color: #F5F5F5;
+}
+
+.peopleName {
+	font-family: "Arial", sans-serif;
+	height: 40px;
+	width: 20%;
+	text-align: center;
+}
+
+.peoplePosition {
+	font-family: "Arial", sans-serif;
+	height: 40px;
+	text-align: center;
+	width: 20%;
+}
+
+.peoplePhone {
+	font-family: "Arial", sans-serif;
+	height: 40px;
+	width: 20%;
+	text-align: center;
+}
+
+.peopleEmail {
+	font-family: "Arial", sans-serif;
+	height: 40px;
+	text-align: center;
+}
+
+.peopleVcard {
+	font-family: "Arial", sans-serif;
+	height: 40px;
+	text-align: center;	
+	width: 20%;
+
+}
+
+.cardpic {
+	height: 100px;
+	width: 100px;
+}
+
+.newsHead {
+	font-family: "Arial", serif;
+	color: #0000CD;
+}
+
+.newsTitle {
+	font-family: "Georgia", serif;
+	color: #0000CD;
+}
+
+.newsDate {
+	font-family: "Verdana", sans-serif;
+	color: #A9A9A9;
+	font-size : 13px;
+}
+
+.newsDesc {
+	font-family: "Verdana", sans-serif;
+}
+
+.noticeTitle {
+	font-family: "Georgia", serif;
+	color: #0000CD;
+}
+
+.noticeDate {
+	font-family: "Verdana", sans-serif;
+	color: #A9A9A9;
+	font-size : 13px;
+}
+
+.noticeDesc {
+	font-family: "Verdana", sans-serif;
+}
+
+.noticeHead {
+	font-family: "Arial", sans-serif;
+	color: #0000CD;
+}
+#showGuestBook {
+	font-family: "Arial", sans-serif;
+}
+
+.feedbackTitle{
+	color: #0000CD;
+}
+
+#posts {
+	background-color: #DCDCDC;
+}
+button {
+	background-color: #F5F5F5;
+}
+
+.homescreen {
+	font-family: "Arial", sans-serif;
+}
+
+.homeTitle {
+	font-family: "Arial", sans-serif;
+	color: #0000CD;
+}
